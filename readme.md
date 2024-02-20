@@ -2,4 +2,4 @@
 
 Pantalla inicial distribuidora:
 
-https://aaizemberg.github.io/bosques/web/bosques_nativos.html
+https://analizando-bn.github.io/bosques_nativos.html
