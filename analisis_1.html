@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html lang="es"class="iem7"> <![endif]-->
+<!--[if lt IE 7 ]> <html lang="es" class="ie6 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="es" class="ie7 lt-ie8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="es" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html lang="es">
+<!--<![endif]-->
+
+<head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Análisis de información de bosques nativos</title>
+  <meta name="description" content="módulo de Análisis de información de bosques nativos">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="images/pgiibn_ico.png">
+  <meta name="theme-color" content="#0072b8">
+  <meta name="msapplication-navbutton-color" content="#0072b8">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0072b8">
+  <meta property="og:url" content="http://localhost:4000/proyectos/argentina/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Los Bosques Nativos" />
+  <meta property="og:description"
+    content="sitio perteneciente a la Administración Pública Nacional de la República Argentina." />
+  <meta property="og:image" content="/images/banner_home02.jpg" />
+  <meta property="og:locale" content="es_AR" />
+  <meta name="twitter:card" content="BN" />
+  <meta name="twitter:title"
+    content="sitio perteneciente a la Administración Pública Nacional de la República Argentina." />
+  <meta name="twitter:image" content="/ejemplos/img/jumbotron.jpg" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- archivos locales -->
+  <link rel="stylesheet" href="css/poncho_bosques.css">
+  <link rel="stylesheet" href="poncho/css/icono-arg.css">
+  <link rel="stylesheet" href="poncho/css/argentina.css">
+<!-- FIN archivos locales -->
+
+<!--agregar para menusuperior -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--lo anterior para menu superior ^^^^ -->
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-top navbar-default bg-verdin" role="navigation">
+      <div class="container">
+        <div>
+          <div class="navbar-header">
+            <a href="contenidos_tematicos.html" title="PGIIBN">
+              <img class="logo-img hidden-xs" src="images/logo_BOSQUESNATIVOS.png" alt="PGIIBN">
+              <img class="logo-img hidden-sm hidden-md hidden-lg m-t-1 m-l-4" src="images/logo_BOSQUESNATIVOS_small.png"
+                alt="PGIIBN">
+            </a>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+
+  <main role="main">
+<section class="jumbotron" style="background-image:url('images/bot_analisis_00.jpg');">
+<!-- inicio de barrita  transparente de breadcrums -->
+<div class="jumbotron_bar">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+	<ol class="breadcrumb">
+		<li><a href="https://www.argentina.gob.ar/ambiente">Ministerio de Ambiente y Desarrollo Sostenible</a></li>
+		<li><a href="https://www.argentina.gob.ar/ambiente/ciam">Centro de Información Ambiental</a></li>
+		<li><a href="/bosques/web/bosques_nativos.html">Bosques Nativos</a></li>
+		<li><a href="/bosques/web/analisis.html">Análisis</a></li>
+		<li class="active">Superficie x categoría - Nacional</li>
+	</ol>
+
+	<ul class="list-inline pull-right">
+	<li class="first expanded dropdown"><a href="/ambiente/transparencia" data-target="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Enlaces rápidos<span class="caret"></span></a>
+		<ul class="dropdown-menu dropdown-menu-right">
+			<li class="first leaf"><a href="http://snmb.ambiente.gob.ar/develop/" target="_blank";>SNMB</a></li>
+			<li class="leaf"><a href="analisis.html" target="_self";>Análisis</a></li>
+			<li class="leaf"><a href="contenidos_tematicos.html" target="_self";>Contenidos Temáticos</a></li>
+			<li class="last leaf"><a href="biblioteca.html" target="_self";>Biblioteca</a></li>
+		</ul>
+	</li>
+</ul>
+
+</div></div></div></div>
+<!-- FIN de barrita  transparente de breadcrums -->
+      <div class="jumbotron_body jumbotron_body">
+        <div class="container">
+          <div class="row">
+             <div class="col-md-12">
+
+            <!-- <h2 class="text-center text">Bosques nativos: 1.234.567 Has.</h2><br>
+              <h4 style="text-align:center">Nativos: 123 | Planes: 456 | Otros usos: 489 | No forestales: 123
+              </h4> -->
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    
+<section> <!-- inicio texto intro -->
+ <div class="container">
+<h4>Los bosques nativos en el contexto nacional</h4>
+<p style="text-align:Justify">La <a href="https://www.argentina.gob.ar/normativa/nacional/ley-26331-136125" target="_blank">Ley de Bosques</a> establece que las provincias deberán realizar el ordenamiento territorial de sus bosques nativos (OTBN), zonificando los bosques en 3 categorías (<b>Categoría I</b> -rojo-, <b>Categoría II</b> -amarillo-, <b>Categoría III</b> - verde-). Es imprescindible el conocimiento de las superficies establecidas para cada categoría, para poder llevar un mejor control de dichas superficies e implementar medidas necesarias para regular y controlar la disminución de la superficie de bosques nativos existentes.</p>
+<p style="text-align:Justify">La gestión sostenible de los bosques es vital para la subsistencia de los habitantes. Millones de personas dependen de los bosques para su seguridad alimentaria y sus medios de vida. Además, los bosques cumplen un importante papel para la generación de oxígeno y la lucha contra el cambio climático. El conocimiento de la superficie de bosques por habitante brinda información sobre los potenciales servicios forestales disponibles por habitante, como así también, presenta a las personas y a los bosques como parte de una misma naturaleza, reforzando con ello la visión para el poblador (tal vez ajeno a los bosques) de su interrelación.</p>
+<p style="text-align:Justify">En cuanto a la presencia de bosques nativos en las diferentes ecorregiones del país, cuantificar la extensión de las diferentes categorías de bosques nativos en cada una de ellas permite conocer el estado de conservación de las mismas y estimar sus tendencias evolutivas.
+<br>
+</p>
+</div>
+</section>
+	
+<section>
+	<div class="container">
+	<h4>Superficie de bosque nativo por categoría OTBN </h4>
+
+	<ul class="nav nav-tabs">
+ 		 <li class="active"><a data-toggle="tab" href="#pestaña1">Categorías por provincias 1er OTBN</a></li>
+         <li><a data-toggle="tab" href="#pestaña1b">Categorías por provincias 2do OTBN</a></li>
+ 		 <li><a data-toggle="tab" href="#pestaña2">Categorías por país y provincias</a></li>
+	</ul>
+<div class="tab-content bg-white" style="padding:20px;border: 1px solid #ddd;border-top:none;">
+  	<div id="pestaña1" class="tab-pane fade in active">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/5030958">
+	<script src="https://public.flourish.studio/resources/embed.js"></script></div>
+	<p style="font-size:small">Muestra la superficie de bosque nativo a nivel provincial en base a las superficies declaradas por las jurisdicciones en sus Ordenamientos Territoriales de Bosques Nativos (1er OTBN), según categoría de conservación (I, II y III) en millones de hectáreas.</p>
+	<b><a href="https://docs.google.com/spreadsheets/d/1leEE99tCP8V_2u4ORBYtblnrozV85Wj5i1apAj_5cKI/edit?usp=sharing" target="_blank";>Descargar datos</a></b>
+  </div>
+  	<div id="pestaña1b" class="tab-pane fade">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/5233072">
+	<script src="https://public.flourish.studio/resources/embed.js"></script></div>
+	<p style="font-size:small">Muestra la superficie de bosque nativo a nivel provincial en base a las superficies declaradas por las jurisdicciones en sus Ordenamientos Territoriales de Bosques Nativos (2do OTBN), según categoría de conservación (I, II y III) en millones de hectáreas.</p>
+	<b><a href="https://docs.google.com/spreadsheets/d/1w3t8cnv8a3Lq_0i6aIN4brP5pjnfrS9VqM_Hw0n6t6I/edit?usp=sharing" target="_blank";>Descargar datos</a></b>
+  </div>
+	<div id="pestaña2" class="tab-pane fade">
+       <div class="flourish-embed flourish-chart" data-src="visualisation/5041927">
+	<script src="https://public.flourish.studio/resources/embed.js"></script></div>
+	<p style="font-size:small">Muestra el porcentaje de bosque nativo a nivel nacional y provincial en base a las superficies declaradas por las jurisdicciones en sus Ordenamientos Territoriales de Bosques Nativos (OTBN), según categoría de conservación (I, II y III).
+</p>
+<b><a href="https://docs.google.com/spreadsheets/d/18kuB3LuXF9SAY1gpCQkzpKFzSpnYH8NvTTwv-QG-DOo/edit?usp=sharing" target="_blank";>Descargar datos</a></b>
+  </div>
+</div>
+	  </div>
+</section>
+	  <hr>
+
+
+<section>
+	<div class="container">
+	<h4>Superficie de bosque nativo por habitante</h4>
+
+	<ul class="nav nav-tabs">
+ 		 <li class="active"><a data-toggle="tab" href="#pestaña3">Superficie de bosque nativo por habitante</a></li>
+ 		 <li><a data-toggle="tab" href="#pestaña4">Superficie de bosque nativo y cantidad de POA por provincia (mapa)</a></li>
+	</ul>
+<div class="tab-content bg-white" style="padding:20px;border: 1px solid #ddd;border-top:none;">
+  	<div id="pestaña3" class="tab-pane fade in active">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/5232416">
+	<script src="https://public.flourish.studio/resources/embed.js"></script></div>
+	<p style="font-size:small">Superficie de Bosque Nativo por habitante</p>
+	<b><a href="https://docs.google.com/spreadsheets/d/1_2_qqeOAlgxG8ocYitHWp7lP5ogIH1bF3IkiahawCkA/edit?usp=sharing" target="_blank";>Descargar datos</a></b>
+  </div>
+	<div id="pestaña4" class="tab-pane fade">
+       <div class="flourish-embed flourish-chart" data-src="visualisation/5105348">
+	<script src="https://public.flourish.studio/resources/embed.js"></script></div>
+	<p style="font-size:small">Superficie de bosque nativo y cantidad de POA por provincia (mapa)</p>
+	<b><a href="https://docs.google.com/spreadsheets/d/100p780Zc6MovSEQ7G3lMt3NkeeDqMlr1J7Vo7eI0CHY/edit?usp=sharing" target="_blank";>Descargar datos</a></b>
+  </div>
+
+</div>
+	  </div>
+</section>
+	  <hr>
+
+<section id="2do_inventario">
+	<div class="container">
+	<h4>Monitoreo del bosque nativo</h4>
+	<ul class="nav nav-tabs">
+ 		 <li class="active"><a data-toggle="tab" href="#pestaña5">Segundo Inventario Nacional de Bosque nativo</a></li>
+	</ul>
+<div class="tab-content bg-white" style="padding:20px;border: 1px solid #ddd;border-top:none;">
+  	<div id="pestaña5" class="tab-pane fade in active">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/5811162">
+	<script src="https://public.flourish.studio/resources/embed.js"></script></div>
+	<p style="font-size:small">2do Inventario Nacional de Bosques Nativos - Parámetros</p>
+	<b><a href="https://docs.google.com/spreadsheets/d/10dybkGIeL-RsZTv6rDhfO2FY5T6FLGHAl05-_YVLH_k/edit#gid=0" target="_blank";>Descarga de datos</a></b> | <b><a href="ctbn_8.html#inventario_2" target="_blank";>Más información del 2do Inventario</a></b>
+  </div>
+</div>
+	  </div>
+</section>
+	  <hr>
+
+<div>
+ </div>
+</div>
+  </main>
+
+ <footer class="main-footer bg-grey light hidden-xs" style="position: bottom:0px; height:120px; padding-top:10px">
+    <div id="footer" class="bg-verdin">
+      <div class="row container-fluid">
+        <div class="col-lg-2"></div>
+        <!--<div class="col-xs-4 col-sm-4 col-lg-3"><a href="#" target="_blank"><img
+              src="#" class="img-responsive" style="height:100px; padding-top:7px" ></a></div>
+        <div class="col-xs-4 col-sm-4 col-lg-3"><a href="#" target="_blank"><img
+              src="#" class="img-responsive"></a></div>
+        <div class="col-xs-4 col-sm-4 col-lg-3"> <a href="#" target="_blank"><img
+              src="#" class="img-responsive"></a></div> -->
+      </div>
+    </div>
+  </footer>
+
+  <footer class="main-footer bg-gray light visible-xs" style="position: bottom:0px; height:90px; padding-top:20px">
+      <div id="footer" class="bg-verdin">
+        <div class="row container-fluid">
+          <!-- <div class="col-lg-2"></div>
+          <div class="col-xs-4 col-sm-4 col-lg-3"><a href="#" target="_blank"><img
+                src="#" class="img-responsive" style="height:40px"></a></div>
+          <div class="col-xs-4 col-sm-4 col-lg-3"><a href="#" target="_blank"><img
+                src="#" class="img-responsive" style="height:40px"></a></div>
+          <div class="col-xs-4 col-sm-4 col-lg-3"> <a href="#" target="_blank"><img
+                src="#" class="img-responsive" style="height:40px"></a></div> 
+        </div>-->
+      </div>
+  </footer>
+</body>
+
+</html>
